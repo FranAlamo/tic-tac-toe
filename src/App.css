@@ -12,9 +12,9 @@ body {
   text-align: center;
 }
 .square {
-  min-width: 30%;
+  width: 50%;
   height: 100px;
-  border: 2px solid rgb(135, 87, 14);
+  border: 2px solid rgb(94, 59, 7);
   background-color: white;
   color: black;
   font-size: 24px;

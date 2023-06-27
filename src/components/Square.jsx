@@ -1,10 +1,8 @@
-function Square({ value }) {
-  function handleClick() {
-    console.log("clicked!");
-  }
+import { useState } from "react";
 
+function Square({ value, onSquareClick }) {
   return (
-    <button className="square" onClick={handleClick}>
+    <button className="square" onClick={onSquareClick}>
       {value}
     </button>
   );
