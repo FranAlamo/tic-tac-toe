@@ -1,26 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap");
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   background-color: rgb(216, 182, 135);
   font-family: "Fredoka", sans-serif;
 }
+
 .title {
   color: azure;
   text-align: center;
 }
+
 .square {
-  width: 50%;
+  width: 100px;
   height: 100px;
   border: 2px solid rgb(94, 59, 7);
   background-color: white;
   color: black;
-  font-size: 24px;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .board-row {
   display: flex;
   justify-content: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info,
+.status {
+  text-align: center;
+}
+
+.game-info ol {
+  padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .game {
+    margin-left: 80%;
+  }
 }

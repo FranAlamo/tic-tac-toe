@@ -7,4 +7,5 @@ function Square({ value, onSquareClick }) {
     </button>
   );
 }
+
 export default Square;
